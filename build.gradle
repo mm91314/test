@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+    compile group:'org.jpos.ee', name:'jposee-client-simulator', version:'2.2.1-SNAPSHOT'
     implementation 'org.jpos:jpos:2.1.8-SNAPSHOT'
 }
 
